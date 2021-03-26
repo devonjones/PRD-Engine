@@ -23,7 +23,7 @@ module.exports = function(config) {
     browserify: {
       extensions: ['.js'],
 //      extensions: ['.js', '.jsx'],
-      transform: [istanbul({ignore: ['**/spec/**']})],
+//      transform: [istanbul({ignore: ['**/spec/**']})],
       debug: true,
       watch: true
     },

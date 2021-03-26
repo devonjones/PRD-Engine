@@ -77,6 +77,9 @@ Rules.addRule(new GameObject({
 	}
 }));
 
+// Change damage type (blunt arrow)
+// Increase Range (flight arrow)
+// Create an effect (smoke arrow, whistling arrow)
 // Ammunition
 Rules.addRule(new GameObject({
 	"body": "<p id=\"ammunition\">Projectile weapons use ammunition: arrows (for bows), bolts (for crossbows), darts (for blowguns), or sling bullets (for slings and halfling sling staves). When using a bow, a character can draw ammunition as a free action; crossbows and slings require an action for reloading (as noted in their descriptions). Generally speaking, ammunition that hits its target is destroyed or rendered useless, while ammunition that misses has a 50% chance of being destroyed or lost.</p><p>Although they are thrown weapons, shuriken are treated as ammunition for the purposes of drawing them, crafting masterwork or otherwise special versions of them, and what happens to them after they are thrown.</p>", 

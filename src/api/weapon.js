@@ -263,7 +263,7 @@ module.exports.createFullAttack = function(bab) {
 	var negative = 0;
 	while(negative < bab) {
 		attacks.push({"penalty": -1 * negative, "gen_damage_times": 1});
-		negative += 6;
+		negative += 5;
 	}
 	return attacks;
 }

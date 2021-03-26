@@ -75,7 +75,7 @@ Rules.addRule(new GameObject({
 		},
 		"combat": {
 			"modifiers": [
-				{"variable": "bab", "formula": "9"}
+				{"variable": "bab", "formula": "11"}
 			]
 		},
 		"attributes": {
@@ -162,6 +162,23 @@ Rules.addRule(new GameObject({
 				{"variable": "bonus_damage", "operation": "push", "value": [
 					{"damage": "2d6", "type": "bane"}
 				]}
+			]
+		}
+	}
+}));
+
+Rules.addRule(new GameObject({
+	"body": "", 
+	"url": "pfsrd://Fake/Vigil/Weapon Focus", 
+	"type": "section", 
+	"name": "Bane", 
+	"source": "Core Rulebook",
+	"dependencies": [
+	],
+	"apply": {
+		"weapon": {
+			"modifiers": [
+				{"variable": "to_hit_modifier", "formula": "1", "type": "weapon_focus"},
 			]
 		}
 	}

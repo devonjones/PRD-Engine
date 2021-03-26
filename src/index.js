@@ -25,6 +25,7 @@ var def = [
 	"pfsrd://Core Rulebook/Rules/Magic Items/Weapons/Magic Weapon Special Ability Descriptions/Holy",
 	"pfsrd://Fake/Vigil",
 	"pfsrd://Fake/Vigil/Falcon's Aim",
+	"pfsrd://Fake/Vigil/Weapon Focus",
 	"pfsrd://Fake/Vigil/Belt of Giant Strength +2"
 ];
 
